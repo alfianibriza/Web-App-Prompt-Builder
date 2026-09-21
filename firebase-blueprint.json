@@ -1,0 +1,25 @@
+{
+  "entities": {
+    "Project": {
+      "title": "Project",
+      "description": "App requirement project and prompt blueprint",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "userId": { "type": "string" },
+        "requirement": { "type": "object" },
+        "history": { "type": "array" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "name", "requirement", "createdAt", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/projects/{projectId}": {
+      "schema": "Project",
+      "description": "User created projects and requirement specifications"
+    }
+  }
+}

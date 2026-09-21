@@ -1,0 +1,6 @@
+{
+  "name": "Web App Prompt Builder",
+  "description": "Aplikasi perancang kebutuhan sistem dan pembuat prompt teknis AI coding terstruktur untuk Google AI Studio, Claude, ChatGPT, dan Cursor",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
